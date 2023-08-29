@@ -1,0 +1,20 @@
+{
+    "name": "miragepresent/battleship-validator",
+    "description": "Solution for Codewars battleship kata in PHP",
+    "type": "project",
+    "require": {
+        "symfony/console": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "MiragePresent\\BattleshipValidator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Davyd Holovii",
+            "email": "mirage.present@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
