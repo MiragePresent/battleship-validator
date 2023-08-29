@@ -11,11 +11,11 @@
             "port": 9003
         },
         {
-            "name": "Launch currently open script",
+            "name": "Launch main script",
             "type": "php",
             "request": "launch",
-            "program": "${file}",
-            "cwd": "${fileDirname}",
+            "program": "${workspaceRoot}/index.php",
+            "cwd": "${workspaceRoot}",
             "port": 0,
             "runtimeArgs": [
                 "-dxdebug.start_with_request=yes"
