@@ -144,7 +144,7 @@ class Validator {
                 unset($remainingSpots[$key]);
             }
         } 
-
+        
         return true;
     }
 
